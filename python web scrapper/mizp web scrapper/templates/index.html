@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/styles.css" rel="stylesheet" />
-    <title>Document</title>
+    <link href="/css/styles.css" rel="stylesheet" />
+    <title>Jooble</title>
 </head>
 <body>
     <nav>
@@ -15,7 +15,7 @@
             <div class="nav__profile"></div>
         </div>
     </nav>
-    <header class="header">
+    <header>
         <div class="header__title">
             <span class="title title--blue title--big">J</span>
             <span class="title title--red">o</span>
@@ -25,7 +25,7 @@
             <span class="title title--red">e</span>
         </div>
     </header>
-    <main class="main">
+    <main>
         <form class="form" action="/report" method="get">
             <div class="form__icon"><i class="fas fa-search"></i></div>
             <input class="form__input" placeholder="Search for a job" required name="word" />
@@ -33,7 +33,25 @@
         </form>
     </main>
     <footer>
-        
+        <div class="footer__top">
+            <span class="top__history">검색 기록</span>
+        </div>
+        <div class="footer__bottom">
+            <div class="bottom__container">
+                <div class="container__left">
+                    <a>Jooble 정보</a>
+                    <a>광고</a>
+                    <a>비즈니스</a>
+                    <a>검색의 원리</a>
+                </div>
+                <div class="container__empty"></div>
+                <div class="container__right">
+                    <a>개인정보처리방침</a>
+                    <a>약관</a>
+                    <a>설정</a>
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="https://kit.fontawesome.com/6f59f71b8b.js" crossorigin="anonymous"></script>
 </body>
